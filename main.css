@@ -88,6 +88,10 @@ p {
   margin-right: 54px;
 }
 
+.menu__item:last-child {
+  margin-right: 0px;
+}
+
 .menu__link {
   font-size: 14px;
   color: #fff;
@@ -117,11 +121,16 @@ p {
 .contacts__text {
   color: #9A9A9A;
   font-size: 11px;
-  margin-top: 4px;
-  margin-bottom: 4.5px;
+  margin-top: 22px;
+  margin-bottom: 2px;
 }
 
 .contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+}
+
+.contacts__phone.footer {
   text-decoration: none;
   font-size: 26px;
   margin-bottom: 4px;
@@ -435,12 +444,16 @@ p {
   margin-bottom: 0px;
 }
 
-.footer__container {
+.footer-container {
   width: 1142px;
   height: 4;
   position: relative;
   margin: 0px auto;
   border-top: 1px solid #353538;
+}
+
+.container.footer-container__content {
+  border-top: 1px solid #fff 0.1;
 }
 
 .footer {
@@ -451,8 +464,8 @@ p {
 }
 
 .social__list {
-  top: 49px;
-  right: 265px;
+  top: 46px;
+  right: 255px;
   position: absolute;
 }
 
