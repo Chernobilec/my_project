@@ -75,7 +75,7 @@ p {
   left: 435px;
 }
 
-.menu.footer {
+.menu__footer {
   position: absolute;
   top: 53px;
   left: 326px;
@@ -130,7 +130,7 @@ p {
   font-size: 26px;
 }
 
-.contacts__phone.footer {
+.contacts__phone.for__footer {
   text-decoration: none;
   font-size: 26px;
   margin-bottom: 4px;
@@ -186,14 +186,40 @@ p {
   text-decoration: none;
 }
 
-.button.button__hello {
+.button.first__orange {
   position: relative;
   top: -11px;
   left: 291px;
 }
 
-.button.button__hello:hover {
+.button:hover {
   background: #FF3D00;
+}
+
+.button.light {
+  position: relative;
+  top: 29px;
+  margin-left: 2px;
+  color: #FF5500;
+  border: 2px solid #FF5500;
+  background: #fff;
+}
+
+.button.light:hover {
+  background: #FF3D00;
+  color: #fff;
+  border-radius: 35px;
+  padding: 18px 53px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button.second__orange {
+  position: relative;
+  top: 29px;
+  margin-left: 2px;
 }
 
 .offers {
@@ -221,12 +247,9 @@ p {
 }
 
 .offers__img {
+  position: relative;
   margin-top: 40px;
   margin-left: 29px;
-}
-
-.offers__img:first-child {
-  margin-top: 36px;
 }
 
 .offers__content {
@@ -238,6 +261,10 @@ p {
   font-weight: 700;
   font-size: 32px;
 }
+
+/* .offers__features {
+  display: inline-block;
+} */
 
 .offers__feature-text {
   display: inline-block;
@@ -271,21 +298,6 @@ p {
   width: 306px;
   height: 66px;
   margin-top: 25px;
-}
-
-.button.button__light {
-  position: relative;
-  top: 29px;
-  margin-left: 2px;
-  color: #FF5500;
-  border: 2px solid #FF5500;
-  background: #fff;
-}
-
-.button.button__color {
-  position: relative;
-  top: 29px;
-  margin-left: 2px;
 }
 
 .container.news__container {
