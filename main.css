@@ -62,7 +62,7 @@ p {
   left: -3px;
 }
 
-.logo.logo__footer {
+.logo.footer__logo {
   display: block;
   position: absolute;
   top: 36px;
@@ -75,7 +75,7 @@ p {
   left: 435px;
 }
 
-.menu__footer {
+.footer__menu {
   position: absolute;
   top: 53px;
   left: 326px;
@@ -186,7 +186,7 @@ p {
   text-decoration: none;
 }
 
-.button.first__orange {
+.button.hello__btn--orange {
   position: relative;
   top: -11px;
   left: 291px;
@@ -216,7 +216,7 @@ p {
   text-decoration: none;
 }
 
-.button.second__orange {
+.button.about__btn--orange {
   position: relative;
   top: 29px;
   margin-left: 2px;
