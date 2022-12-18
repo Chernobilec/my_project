@@ -1,0 +1,42 @@
+.button {
+  background: #FF5500;
+  border-radius: 35px;
+  padding: 18px 53px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #FF3D00;
+}
+
+.button.light {
+  display: flex;
+  margin-top: auto;
+  /* position: relative; */
+  /* top: 29px; */
+  color: #FF5500;
+  border: 2px solid #FF5500;
+  background: #fff;
+  margin-bottom: 53px;
+}
+
+.button.light:hover {
+  background: #FF3D00;
+  color: #fff;
+  border-radius: 35px;
+  padding: 18px 53px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button.about__btn--orange {
+  position: relative;
+  padding: 18px 40.5px;
+  top: 29px;
+  margin-left: 2px;
+}

@@ -1,0 +1,31 @@
+.menu {
+  display: flex;
+  margin-bottom: 8px;
+  /* margin-left: 35px; */
+}
+
+.menu__item {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  margin-right: 54px;
+}
+
+.menu__item:last-child {
+  margin-right: 0px;
+}
+
+.menu__link {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: #FF3D00;
+}
+
+.footer__menu {
+  display: flex;
+  justify-content: space-between;
+}
