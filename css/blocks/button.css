@@ -6,9 +6,11 @@
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
+  transition: .5s;
 }
 
 .button:hover {
+  transition: .5s;
   background: #FF3D00;
 }
 
@@ -21,9 +23,11 @@
   border: 2px solid #FF5500;
   background: #fff;
   margin-bottom: 53px;
+  transition: .5s;
 }
 
 .button.light:hover {
+  transition: .5s;
   background: #FF3D00;
   color: #fff;
   border-radius: 35px;
@@ -39,4 +43,8 @@
   padding: 18px 40.5px;
   top: 29px;
   margin-left: 2px;
+}
+
+.button.enter {
+  padding: 18px 58px;
 }

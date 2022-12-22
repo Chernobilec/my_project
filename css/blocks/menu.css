@@ -19,9 +19,11 @@
   font-size: 14px;
   color: #fff;
   text-decoration: none;
+  transition: .5s;
 }
 
 .menu__link:hover {
+  transition: .5s;
   color: #FF3D00;
 }
 

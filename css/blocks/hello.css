@@ -3,12 +3,6 @@
   margin-bottom: 233px;
 }
 
-/* .container.hello__container {
-  width: 780px;
-  min-height: 333px;
-  margin-bottom: 233px;
-} */
-
 .hello__string {
   display: flex;
   flex-direction: column;

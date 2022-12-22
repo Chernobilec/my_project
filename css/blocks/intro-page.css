@@ -1,0 +1,22 @@
+.intro-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1128px;
+  height: 643px;
+  opacity: 0;
+  transition: 1.18s;
+}
+
+.intro-page:hover {
+  opacity: 1;
+  transition: 1.18s;
+  animation: jackInTheBox 1.18s;
+
+}
+
+.intro-page__logo {
+  margin-bottom: 48px;
+  margin-top: 20px;
+}

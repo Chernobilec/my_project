@@ -42,9 +42,11 @@
   text-decoration: none;
   font-weight: 700;
   line-height: 32px;
+  transition: .5s;
 }
 
 .pages__link:hover {
+  transition: .5s;
   display: block;
   background: #FF5500;
   width: 32px;

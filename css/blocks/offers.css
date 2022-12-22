@@ -19,9 +19,11 @@
   background: #fff;
   border-radius: 5px;
   border: 5px solid transparent;
+  transition: .5s;
 }
 
 .offers__item:hover {
+  transition: .5s;
   border: 5px solid #ccc;
   border-radius: 5px;
 }
