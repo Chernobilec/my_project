@@ -1,0 +1,41 @@
+.intro-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1128px;
+  height: 643px;
+  opacity: 0;
+  transition: 1.18s;
+  animation: jackInTheBox 1.18s;
+  animation-fill-mode: forwards;
+}
+
+/* .intro-page:hover {
+  opacity: 1;
+  transition: 1.18s;
+  animation: jackInTheBox 1.18s;
+  animation-fill-mode: forwards;
+  
+} */
+
+.intro-page__logo {
+  margin-bottom: 48px;
+  margin-top: 20px;
+}
+
+@keyframes jackInTheBox {
+  from {
+    transform: scale(0.1) rotate(30deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  70% {
+    transform: rotate(3deg);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
